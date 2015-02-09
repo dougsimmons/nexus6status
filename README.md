@@ -2,10 +2,12 @@
 
 Get an email alert when the Nexus 6 is finally in stock!
 
-This basic bash script, the variables of which you may want to modify, emails you an alert when the text "out of inventory" is absent from the Nexus 6's product page on Google Play, indicating that it's p$
+This basic bash script, the variables of which you may want to modify, emails you an alert when the text "out of inventory" is absent from the Nexus 6's product page on Google Play, indicating that it's possibly available.
 
-Tune the variables (including URL of the Nexus 6 variant, your email, the out-of-stock text string to look for etc) to your liking, then add it as an hourly or daily cron task or whatever -- probably don't want to hammer google too frequently.
+Tune the variables (including URL of the Nexus 6 variant, your email, the out-of-stock text string to look for etc) to your liking, then add it as an hourly or daily cron task or whatever -- probably don't want to hammer google too frequently. 
 
-My first script, don't judge me. :)
+Note, depending on whether you use mailx, mail, email or another mail tool, you may need to mess with the syntax.
+
+My first github script, don't judge me. :)
 
 Doug Simmons
